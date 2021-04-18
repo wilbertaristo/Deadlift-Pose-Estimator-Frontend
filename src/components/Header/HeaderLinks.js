@@ -36,12 +36,22 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://github.com/wilbertaristo/covid-lung-image-classifier"
+          href="https://github.com/wilbertaristo/Deadlift-Pose-Estimator-Frontend"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Source Code
+          <CloudDownload className={classes.icons} /> Frontend Source Code
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="https://github.com/wilbertaristo/Deadlift-Pose-Estimation-Backend"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <CloudDownload className={classes.icons} /> Backend Source Code
         </Button>
       </ListItem>
     </List>
