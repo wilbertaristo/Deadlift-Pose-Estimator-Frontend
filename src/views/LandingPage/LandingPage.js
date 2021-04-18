@@ -243,7 +243,7 @@ export default function LandingPage(props) {
                       id="transition-modal-description"
                       style={{ marginBottom: "15px", color: "#999" }}
                     >
-                      Please upload a video or image file of your choice:
+                      Please upload a video of your choice:
                     </h4>
                     {errorMessage.length > 0 ? (
                       <Alert severity="error" style={{ marginBottom: "20px" }}>
@@ -265,7 +265,7 @@ export default function LandingPage(props) {
                       previewText="Uploaded video:"
                       maxFileSize={300000000}
                       acceptedFiles={["video/*"]}
-                      dropzoneText={"Drag and drop an image here"}
+                      dropzoneText={"Drag and drop a video here"}
                       onChange={handleFileChange}
                     />
                   </div>
@@ -280,7 +280,7 @@ export default function LandingPage(props) {
                     rel="noopener noreferrer"
                     style={{ marginTop: "25px" }}
                   >
-                    {modelProcessing ? "Processing Your Video" : "Upload Video"}
+                    {modelProcessing ? "Processing Your Video" : "Run Model"}
                   </Button>
                 </div>
               </div>
